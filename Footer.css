@@ -1,0 +1,27 @@
+.Footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:10px;
+    color:whitesmoke;
+    background-color: cadetblue;
+    padding:5px;
+}
+.footerlogo{
+    display: flex;
+}
+.Socialmedia{
+    display: flex;
+    flex-direction: column;
+}
+.Contactus{
+    display: flex;
+    flex-direction: column;
+}
+@media(280px<=width<=540px){
+    .Footer{
+        flex-direction: column;
+    }
+    .Socialmedia{
+        display: none;
+    }
+}

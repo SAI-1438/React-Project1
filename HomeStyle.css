@@ -1,0 +1,151 @@
+/* .App{
+  margin: 10px;
+} */ 
+.h1{
+    border-bottom: 3px solid grey ;
+} 
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:10px;
+    margin:5px;
+    color:white;
+}
+.box1{
+    border-radius: 10px;
+    height:380px;
+    grid-column-end: span 2;
+    grid-row-end:span 2;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+    display: block;
+}
+.box2{
+    border-radius: 10px;
+    height: 184px;
+    background-image: url(https://thumbs.dreamstime.com/b/dark-haired-man-raising-his-arms-as-symbol-victory-freedom-achievement-goals-dark-haired-man-raises-his-arms-to-sky-233114114.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5px;
+    display: block;
+}
+.box3{
+    border-radius: 10px;
+    height: 184px;
+    background-image: url(https://media.istockphoto.com/id/1264156957/photo/young-man-in-the-city-reaching-his-goals.jpg?s=170667a&w=0&k=20&c=R8N-fTz1UrEifZhbltXaHRZFlST2Afv9SKXHJKNLN3M=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5px;
+    display: block;
+}
+.latest{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.Larticles{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.articlebox1{
+    width:860px;
+}
+.box1s{
+    display: flex;
+}
+h4{
+    margin:5px;
+}
+h3{
+    margin:5px;
+}
+h2{
+    margin:5px;
+}
+.articlebox2{
+    display:block;
+}
+.advtsmnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    border-radius: 20px;
+    background-color:grey;
+    color:whitesmoke;
+    height: 960px;
+    width:465px;
+}
+.lststo{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.bx{
+    width:450px;
+    padding-left:20px;
+}
+.x1{
+    border-right: 1px solid lightgrey;
+}
+.x2{
+    border-right: 1px solid lightgrey;
+}
+button{
+    background-color: whitesmoke;
+    border:none;
+}
+@media(280px<=width<=540px){
+    .box1{
+        height:300px;
+    grid-column-end: span 3;
+    grid-row-end:span 3;
+    }
+    .box2{
+        display: none;
+    }
+    .box3{
+        display: none;
+    }
+    .latest{
+        flex-direction: column;
+    }
+    .articlebox1{
+        width:350px;
+    }
+    .articlebox2{
+        display:none;
+    }
+    .advtsmnt{
+        font-size:9px;
+        height:550px;
+        width:100px;
+    }
+    .lststo{
+        flex-direction: column;
+    }
+    .x1{
+        display: none;
+    }
+    .x2{
+        display: none;
+    }
+    .bx{
+        padding-left:1px;
+        width:350px;
+    }
+}
+@media(768px<=width<=1024px){
+    .advtsmnt{
+        width:240px;
+        font-size: 20px;
+    }
+    .bx{
+        padding-left:1px;
+        width:250px;
+    }
+}
